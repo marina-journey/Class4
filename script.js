@@ -4,4 +4,4 @@ let moved = parseInt(box.style.marginLeft) || 0;
 
 do {
   box.style.marginLeft = ++moved + "px";
-} while (moved <= moveBy -1); 
+} while (moved < moveBy); 
